@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agents for Good</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Agents for Good</h1>
+
+    <select id="agent">
+      <option value="green">Green Agent</option>
+      <option value="health">Health Agent</option>
+      <option value="edu">Edu Agent</option>
+      <option value="civic">Civic Agent</option>
+      <option value="coordinator">Coordinator</option>
+    </select>
+
+    <textarea id="query" placeholder="Enter your question..."></textarea>
+
+    <button onclick="askAgent()">Ask Agent</button>
+
+    <div id="response"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
